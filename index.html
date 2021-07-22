@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Miracle Chill</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:500.700'><link rel="stylesheet" href="./cards/style.css">
+</head>
+
+
+<body>
+    <header>
+        <iframe src="./i-wanna-rock/index.html" style="height: 116vh; width: 100vw;"></iframe>
+    </header>
+
+
+    <section>
+        <br/><br/><br/><br/>
+        <div id="app" class="container">
+            <card data-image="card4.jpg">
+                <h1 slot="header">Музыка</h1>
+                <p slot="content">Музыка должна высекать огонь из людских сердец.</p>
+            </card>
+            <card data-image="card3.jpg">
+                <h1 slot="header">Искусство</h1>
+                <p slot="content">Только при его свете исправны дела людские.</p>
+            </card>
+            <card data-image="card1.jpg">
+                <h1 slot="header">Философия</h1>
+                <p slot="content">Так называется не самая мудрость, а любовь к ней.</p>
+            </card>
+            <card data-image="card2.jpg">
+                <h1 slot="header">Поэзия</h1>
+                <p slot="content">Поэзия есть внутренний огонь всякого таланта.</p>
+            </card>
+        </div>
+
+        <!-- partial -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script><script  src="./cards/script.js"></script>
+    </section>
+
+
+    <section>
+        <br/><br/><br/><br/><br/><br/>
+        <style>
+            @media (max-width : 851px) {
+                .sas {
+                    width: 100vw;
+                    height: 106vh;
+                    overflow: hidden;
+                }
+            }
+
+            @media (min-width : 851px) {
+                .sas {
+                    width: 100vw;
+                    height: 56vh;
+                    overflow: hidden;
+                }
+            }
+        </style>
+        <iframe src="./about/index.html" class="sas"></iframe>
+    </section>
+
+
+    <section>
+        <iframe src="./carousel/index.html" style="height: 86vh; width: 100vw; overflow: hidden;"></iframe>
+    </section>
+
+
+    <section>
+        <br/><br/><br/><br/>
+        <iframe src="./footer/index.html" style="height: 56vh; width: 100vw; overflow: hidden;"></iframe>
+    </section>
+</body>
